@@ -1,4 +1,4 @@
-﻿Build started 9/10/2012 2:20:08 PM.
+﻿Build started 9/12/2012 2:07:14 PM.
      1>Project "C:\Users\500124870\Desktop\GitHub\intro-c-plus-plus\assignment3OutputWithTabs\assignment3OutputWithTabs\assignment3OutputWithTabs.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\assignment3OutputWithTabs.unsuccessfulbuild" because "AlwaysCreate" was specified.
@@ -24,4 +24,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.62
+Time Elapsed 00:00:00.85

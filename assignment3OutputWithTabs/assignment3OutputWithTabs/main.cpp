@@ -19,9 +19,9 @@ int main()
 	cout << "-------------------------------" << endl;
 	
 	cout << left << setw(columnWidth) << "T1267" <<right << part1 << endl;
-	cout << left << setw(columnWidth) << "T1300" << endl;
-	cout << left << setw(columnWidth) << "T2401" << endl;
-	cout << left << setw(columnWidth) << "T4482" << endl;
+	cout << left << setw(columnWidth) << "T1300" <<right << part2 << endl;
+	cout << left << setw(columnWidth) << "T2401" <<right << part3 << endl;
+	cout << left << setw(columnWidth) << "T4482" <<right << part4 << endl;
 	
 	
 	getch();
