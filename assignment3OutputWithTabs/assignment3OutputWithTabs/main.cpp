@@ -11,17 +11,18 @@ int main()
 	float part2 = 8.92;
 	float part3 = 65.40;
 	float part4 = 103.45;
-	int columnWidth = 20;
+	//Set up variables for columnWidths
+	int columnWidth = 5;
 	int columnWidth2 = 10;
 
-
-	cout << left << setw(columnWidth) << "PART NO." << setw(columnWidth2) << "PRICE" << endl;
+	
+	cout << left << setw(columnWidth) << "PART NO." << right<< setw(columnWidth2) << "\tPRICE" << endl;
 	cout << "-------------------------------" << endl;
 	
-	cout << left << setw(columnWidth) << "T1267" <<right << part1 << endl;
-	cout << left << setw(columnWidth) << "T1300" <<right << part2 << endl;
-	cout << left << setw(columnWidth) << "T2401" <<right << part3 << endl;
-	cout << left << setw(columnWidth) << "T4482" <<right << part4 << endl;
+	cout << left << setw(columnWidth) << "T1267" << setw(columnWidth2) <<right << "\t$" << part1 << endl;
+	cout << left << setw(columnWidth) << "T1300" << setw(columnWidth2) <<right << "\t$" << part2 << endl;
+	cout << left << setw(columnWidth) << "T2401" << setw(columnWidth2) <<right << "\t$" << part3 << endl;
+	cout << left << setw(columnWidth) << "T4482" << setw(columnWidth2) <<right << "$" << part4 << endl;
 	
 	
 	getch();

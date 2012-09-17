@@ -1,4 +1,4 @@
-﻿Build started 9/12/2012 2:07:14 PM.
+﻿Build started 9/17/2012 11:58:14 AM.
      1>Project "C:\Users\500124870\Desktop\GitHub\intro-c-plus-plus\assignment3OutputWithTabs\assignment3OutputWithTabs\assignment3OutputWithTabs.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\assignment3OutputWithTabs.unsuccessfulbuild" because "AlwaysCreate" was specified.
@@ -9,7 +9,7 @@
      1>c:\users\500124870\desktop\github\intro-c-plus-plus\assignment3outputwithtabs\assignment3outputwithtabs\main.cpp(11): warning C4305: 'initializing' : truncation from 'double' to 'float'
      1>c:\users\500124870\desktop\github\intro-c-plus-plus\assignment3outputwithtabs\assignment3outputwithtabs\main.cpp(12): warning C4305: 'initializing' : truncation from 'double' to 'float'
      1>c:\users\500124870\desktop\github\intro-c-plus-plus\assignment3outputwithtabs\assignment3outputwithtabs\main.cpp(13): warning C4305: 'initializing' : truncation from 'double' to 'float'
-     1>c:\users\500124870\desktop\github\intro-c-plus-plus\assignment3outputwithtabs\assignment3outputwithtabs\main.cpp(27): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+     1>c:\users\500124870\desktop\github\intro-c-plus-plus\assignment3outputwithtabs\assignment3outputwithtabs\main.cpp(28): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
                  c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
        Link:
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\500124870\Desktop\GitHub\intro-c-plus-plus\assignment3OutputWithTabs\Debug\assignment3OutputWithTabs.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\assignment3OutputWithTabs.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\500124870\Desktop\GitHub\intro-c-plus-plus\assignment3OutputWithTabs\Debug\assignment3OutputWithTabs.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\500124870\Desktop\GitHub\intro-c-plus-plus\assignment3OutputWithTabs\Debug\assignment3OutputWithTabs.lib" /MACHINE:X86 Debug\main.obj
@@ -24,4 +24,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.85
+Time Elapsed 00:00:00.74
