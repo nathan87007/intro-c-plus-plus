@@ -7,28 +7,26 @@ using namespace std;
 int main()
 {
 	//declare variables
-	int firstnum = 106.54;
-	int secnum = 89.532;
-	int thirdnum = 98.76;
-	int average;
-	int total;
+	float firstnum = 106.54;
+	float secnum = 89.532;
+	float thirdnum = 98.76;
+	float total = firstnum + secnum + thirdnum;
+	float average = total / 3;
 	//Set up variables for columnWidths
 	int columnWidth = 20;
 	int columnWidth2 = 10;
-	cout << std::fixed;
-	//find total of numbers
-	total = firstnum + secnum + thirdnum;
-	average = total / 3;
 	
-	cout << std::setprecision(4);
-	cout << left << setw(columnWidth) << "First Number" << setw(columnWidth2) << firstnum << endl;
-	cout << left << setw(columnWidth) << "Second Number" << setw(columnWidth2) << secnum << endl;
-	cout << left << setw(columnWidth) << "Third Number" << setw(columnWidth2) << thirdnum << endl;
-	cout << left << setw(columnWidth) << "Total" << setw(columnWidth2) << total << endl;
-	cout << std::setprecision(1);
-	cout << left << setw(columnWidth) << "Average" << setw(columnWidth2) << average << endl;
+	//output the values
+	cout << left << setw(columnWidth) << "First Number" << setw(columnWidth2) << right << firstnum << endl;
+	cout << left << setw(columnWidth) << "Second Number" << setw(columnWidth2) << right << secnum << endl;
+	cout << left << setw(columnWidth) << "Third Number" << setw(columnWidth2) << right << thirdnum << endl;
+	cout << "-------------------------------" <<endl;
+	cout << fixed << setprecision(4); //set the decimal places
+	cout << left << setw(columnWidth) << "Total" << setw(columnWidth2) << right << total << endl;
+	cout << setprecision(1);
+	cout << left << setw(columnWidth) << "Average" << setw(columnWidth2) << right << average << endl;
 	
 	
-	getch();
+	_getch();
 	return 0;
 }
