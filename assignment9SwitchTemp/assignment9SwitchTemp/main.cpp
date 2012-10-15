@@ -6,16 +6,17 @@ using namespace std;
 
 int main()
 {
+	//declare variables
 	char scale;
 	float temp;
 	float output;
-
+	//prompt user for information
 	cout << "Please enter the tempature: " << endl;
 	cin >> temp;
 	cout << "Please enter 'F' for Fahrenheit or 'C' for celsius: " << endl;
 	cin >> scale;
 
-
+	//enable switch to select choice
 	switch (scale)
 	{
 		case 'c':
@@ -33,7 +34,7 @@ int main()
 		default:
 			cout << "Please enter either a 'F' or a 'C' for the tempature scale!" << endl;
 	}
-
+	//inform user how to exit
 	cout <<"Press any key to exit!";
 	_getch();
 	return 0;
